@@ -37,10 +37,10 @@ console.log(hacker2Name);
 hacker1 = hacker1.toLowerCase();
 hacker2 = hacker2.toLowerCase();
 
-if (hacker1 > hacker2) {
+if (hacker1.length > hacker2.length) {
   console.log("The driver's name goes first.")
 }
-else if (hacker1 < hacker2) {
+else if (hacker1.length < hacker2.length) {
   console.log("Yo, the navigator goes first definitely.")
 }
 else {
